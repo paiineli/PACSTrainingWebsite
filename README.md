@@ -5,10 +5,9 @@ This site is designed to be straightforward and simple for new team members in t
 
 # Features
 • User-Friendly: The site is designed to be intuitive and easy to navigate.<br>
-
 • Educational Resource: It serves as both a training tool and a continuous learning resource.<br>
 • Confidentiality: Some files are excluded to protect sensitive information.<br>
 
 # Technologies Used
-• HTML: For structuring the website.
-• CSS: For styling and layout.
+• HTML: For structuring the website.<br>
+• CSS: For styling and layout.<br>
