@@ -15,12 +15,12 @@ This site is designed to be straightforward and simple for new team members in t
 # Usage
 To use this site, clone the repository and open the assets/signin.html file in your web browser.
 
-git clone https://github.com/paiineli/PACSTrainingWebsite
-cd training-site
-open index.html
+git clone https://github.com/paiineli/PACSTrainingWebsite<br>
+cd training-site<br>
+open index.html<br>
 
 # Contact
 If you have any questions or need further assistance, please feel free to contact:
-• Lucas Paineli
-• Email: painelilucas@gmail.com
-• Phone: +55 15 991144028
+• Lucas Paineli<br>
+• Email: painelilucas@gmail.com<br>
+• Phone: +55 15 991144028<br>
