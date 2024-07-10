@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--START HEAD-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--START STYLE-->
+    <link rel="stylesheet" href="style-documentos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: Unimed;
+            src: url('fonts/UnimedSlab-Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <!--END STYLE-->
+
+    <title>Treinamento - PACS</title>
+    <link rel="icon" href="img/icon.png">
+    </head>
+<!--END HEAD-->
+
+<!--START NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-green">
+
+        <!--START MOBILE AND MEDIUM SCREEN-->
+        <a class="navbar-brand d-lg-none" href="#"><img src="img/logo_unimed_sorocaba.png" width=" 150"
+                class="d-inline-block align-top" alt=""></a>
+        <h1 class="navbar-brand d-lg-none">Treinamento - PACS</h1>
+        <!--END MOBILE AND MEDIUM SCREEN-->
+
+        <!--START HAMBURGUER BUTTON-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--END HAMBURGUER BUTTON-->
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+            <a class="navbar-brand d-none  d-lg-block" href="#">
+                <img src="img/logo_unimed_sorocaba.png" width=" 150" class="d-inline-block align-top" alt="">
+            </a>
+
+        <!--START LARGE SCREEN-->
+        <h1 class="text-white navbar-brand d-none d-lg-block titulo-navbar">Treinamento - PACS</h1>
+
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="conteudo.html">Conteúdo</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="modalidades.html">Modalidades</a></li>
+            <div class="active"><li class="nav-item"><a class="nav-link text-white" href="documentos.html">Documentos</a></li></div>
+            <li class="nav-item"><a class="nav-link text-white" href="questionario.html">Questionário</a></li>
+        </ul>
+        <!--END LARGE SCREEN-->
+        </div>
+    </nav>
+<!--END NAVBAR-->
+
+<!--START CONTENT-->
+    <div class="container-body-documentos">
+        <table>
+            <thead>
+              <tr>
+                <th scope="col">Documentos disponíveis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr onclick="window.open('doc/Acesso NRDR.pdf')">
+                <td data-label="Nome">Acesso NRDR</td>
+              </tr>
+              <tr onclick="window.open('doc/Integração de Ordem x Pedido.pdf')">
+                <td data-label="Nome">Integração de Ordem x Pedido</td>
+              </tr>
+              <tr onclick="window.open('doc/Licenças WTT PACS Swap.pdf')">
+                <td data-label="Nome">Licenças WTT PACS Swap</td>
+              </tr>
+              <tr onclick="window.open('doc/Centricity RIS-i 7 SP2 - Manual do Usuário.pdf')">
+                <td data-label="Nome">Centricity RIS-i 7 SP2 - Manual do Usuário</td>
+              <tr onclick="window.open('doc/DoseWatch 3.2 Operator Manual.pdf')">
+                <td data-label="Nome">DoseWatch 3.2 - Manual do Usuário</td>
+              <tr onclick="window.open('doc/Universal Viewer 7 - Manual do Usuário.pdf')">
+                <td data-label="Nome">Universal Viewer 7 - Manual do Usuário</td>
+              <tr onclick="window.open('doc/ZFP 6 SP11.3 - Manual do Usuário.pdf')">
+                <td data-label="Nome">ZFP 6 SP11.3 - Manual do Usuário</td>
+              <tr onclick="window.open('doc/RIS7 - Comandos de Voz_pt-BR.pdf')">
+                <td data-label="Nome">RIS7 - Comandos de Voz</td>
+              <tr onclick="window.open('doc/Reconhecimento de voz.pdf')">
+                <td data-label="Nome">Reconhecimento de voz</td>
+              <tr onclick="window.open('doc/Optix EcoPrinter - Manual do Usuário.pdf')">
+                <td data-label="Nome">Optix EcoPrinter - Manual do Usuário</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+<!--END CONTENT-->
+
+<!--START FOOTER-->
+<footer>
+    <br>
+    <br>
+    <div class="container-footer">
+        <ul>
+            <h3>Sobre</h3>
+            <li><a href="https://www.unimedsorocaba.coop.br/Intranet/Site/Home/PoliticaPrivacidade"target="_blank">Política de Privacidade</a></li>
+            <li><a href="https://www.unimedsorocaba.coop.br/Intranet/Site/Home/TermosUtilizacao"target="_blank">Termos de Utilização</a></li>
+        </ul>
+        <ul>
+            <h3>Informações</h3>
+            <li><a href="https://www.unimedsorocaba.coop.br/unimedsite/institucional/nossahistoria"target="_blank">Sobre a Unimed</a></li>
+            <li><a href="https://www.unimedsorocaba.coop.br/Intranet/Site/FaleConosco/TelefonesEmails"target="_blank">Telefones e E-mails</a></li>
+            <li><a href="https://www.unimedsorocaba.coop.br/unimedsite/unidades/todas"target="_blank">Unidades</a></li>
+            <li><a href="https://www.unimedsorocaba.coop.br/Intranet/Site/FaleConosco/RecursosHumanos"target="_blank">Fale com a RH</a></li>
+        </ul>
+        <ul>
+            <h3>Acesso</h3>
+            <li><a href="https://www.unimedsorocaba.coop.br/unimedsite/servicosonline/guiamedico"target="_blank">Guia Médico</a></li>
+            <li><a href="https://www.unimedsorocaba.coop.br/unimedsite/servicosonline"target="_blank">Serviços On-line</a></li>
+            <li><a href="https://platform.senior.com.br/login/?redirectTo=https%3A%2F%2Fplatform.senior.com.br%2Fsenior-x%2F&tenant=unimedsorocaba.coop.br"target="_blank">Sistema Senior</a></li>
+        </ul>
+        <ul>
+            <h3>Sites</h3>
+            <li><a href="https://www.unimedsorocaba.coop.br/"target="_blank">Portal Unimed</a></li>
+            <li><a href="https://www.unimedsorocaba.coop.br/Intranet/Site/Home/Sites"target="_blank">Outros Sites</a></li>
+            <li><a href="http://www.institutoms.org.br/"target="_blank">Instituto Dr. Miguel Soeiro</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    </footer>
+<!--END FOOTER-->
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+/*STAR IMPORT*/
+@import url('fonts/UnimedSlab-Regular.otf');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unimed';
+}
+/*END IMPORT*/
+
+/*STAR HEAD*/
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.img-logo{
+    max-width: 100%;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+/*END HEAD*/
+
+/*NAVBAR*/
+nav{
+    background-color: rgba(0, 153, 93);
+    top: 0;
+}
+nav h1{
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+}
+.navbar-nav .active,
+.navbar-nav a:hover{
+    background: rgba(1, 97, 59);
+    border-radius: 15px;
+}
+.titulo-navbar {
+    font-size: 2.2rem !important;
+}
+.bg-green {
+    color: #00995D !important;
+}
+/*END NAVBAR*/
+
+/*STAR CONTENT*/
+.container-body-home{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    text-align: justify;
+    line-height: 1.3;
+}
+.container-body-home b{
+    color: rgba(1, 59, 36);
+    font-size: 18px;
+}
+.container-body-home h3{
+    color: rgba(0, 153, 93);
+    font-size: 21.5px;
+}
+.container-body-home h3 a{
+    text-decoration: none;
+    color: rgba(0, 153, 93);
+}
+.container-body-home ul li{
+    margin-left: 20px;
+
+}
+/*END CONTENT*/
+
+/*START FOOTER*/
+footer{
+    background-color: #e7eaec;
+}
+footer .container-footer{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: black;
+}
+footer .container-footer ul{
+    width: 25%;
+    text-align: justify;
+}
+footer .container-footer h3{
+    margin-bottom: 16px;
+    font-size:large;
+    font-weight: bold;
+    color: rgba(0, 153, 93);
+}
+footer .container-footer li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+footer .container-footer a{
+    color: rgba(0, 0, 0, 0.6);
+    outline: none;
+    text-decoration: none;
+    font-size: small;
+}
+/*END FOOTER*/
+
+
+/*START SELECTION*/
+::selection{ 
+    background: rgb(177,211,75); color: rgb(163,35,142);
+} 
+::-moz-selection{ 
+    background: rgb(177,211,75); color: rgb(163,35,142); 
+}
+/*END SELECTION*/
+
+
+/*START RESPONSIVO*/
+@media only screen and (max-width: 920px) {
+    .container-footer{
+        flex-direction: column;
+    }
+}
+/*END RESPONSIVO*/
+
+
+

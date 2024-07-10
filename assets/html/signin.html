@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <!--START HEAD-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--START STYLE-->
+        <link rel="stylesheet" href="../css/signin.css" />
+        <style>
+          @font-face {
+          font-family: Unimed;
+          src: url('../../assets/fonts/UnimedSlab-Regular.otf')
+          format('opentype');
+          font-weight: normal;
+          font-style: normal;
+          }
+        </style>
+  <!--END STYLE-->
+
+  <title>Treinamento - PACS</title>
+  <link rel="icon" href="../../assets/img/icon.png">
+  </head>
+<!--END HEAD-->
+
+<!--START BODY-->
+<body>
+
+  <div class="container">
+    <div class="justify-center">
+      <img src="../img/logo_unimed_sorocaba.png" width=" 200">
+    </div>
+      <br>
+      <br>
+      <br>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Usuário" required><br>
+      <input type="password" id="password" placeholder="Senha" required><br>
+      <span id="errorMessage" class="error-message"></span>
+      <br>
+      <br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+<!--START SCRIPT-->
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); 
+
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      var errorMessage = document.getElementById("errorMessage");
+
+      errorMessage.innerHTML = "";
+      if (username.trim() === "") {
+        errorMessage.innerHTML = "Preencha este campo.";
+        return;
+      }
+      if (password.trim() === "") {
+        errorMessage.innerHTML = "Preencha este campo.";
+        return;
+      }
+      if (username === "administrador" && password === "2ghPgcu4") {
+        window.location.href = '../../index.html'
+      } else {
+        errorMessage.innerHTML = "Nome do usuario ou senha incorreto. Tente novamente.";
+      }
+    });
+  </script>
+<!--END SCRIPT-->
+
+</body>
+<!--END BODY-->
+
+</html>

@@ -1,0 +1,212 @@
+/*STAR IMPORT*/
+@import url('fonts/UnimedSlab-Regular.otf');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unimed';
+}
+/*END IMPORT*/
+
+/*STAR HEAD*/
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.img-logo{
+    max-width: 100%;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+/*END HEAD*/
+
+/*NAVBAR*/
+nav{
+    background-color: rgba(0, 153, 93);
+    top: 0;
+}
+nav h1{
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+}
+.navbar-nav .active,
+.navbar-nav a:hover{
+    background: rgba(1, 97, 59);
+    border-radius: 15px;
+}
+.titulo-navbar {
+    font-size: 2.2rem !important;
+}
+.bg-green {
+    color: #00995D !important;
+}
+/*END NAVBAR*/
+
+/*STAR CONTENT*/
+.container-body-documentos{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    line-height: 1.3;
+}
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+  }
+table caption {
+    font-size: 2em;
+    margin: .5em 0 .75em;
+}
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+table th{
+    text-align: center;
+    padding: .800em;
+    background-color: rgba(0, 153, 93);
+    color: white;
+}
+table td {
+    padding: .625em;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+table th {
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+td:hover {
+    background-color: #e9e9e9;
+    transform: scale(1.04);
+}
+/*END CONTENT*/
+
+/*START FOOTER*/
+footer{
+    background-color: #e7eaec;
+}
+footer .container-footer{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: black;
+}
+footer .container-footer ul{
+    width: 25%;
+    text-align: justify;
+}
+footer .container-footer h3{
+    margin-bottom: 16px;
+    font-size:large;
+    font-weight: bold;
+    color: rgba(0, 153, 93);
+}
+footer .container-footer li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+footer .container-footer a{
+    color: rgba(0, 0, 0, 0.6);
+    outline: none;
+    text-decoration: none;
+    font-size: small;
+}
+/*END FOOTER*/
+
+/*START SELECTION*/
+::selection{ 
+    background: rgb(177,211,75); color: rgb(163,35,142);
+} 
+::-moz-selection{ 
+    background: rgb(177,211,75); color: rgb(163,35,142); 
+}
+/*END SELECTION*/
+
+
+/*START RESPONSIVO*/
+@media only screen and (max-width: 920px) {
+    .container-footer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  /* general styling */
+  body {
+    line-height: 1.25;
+  }
+/*END RESPONSIVO*/

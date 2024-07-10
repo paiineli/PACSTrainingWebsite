@@ -1,0 +1,71 @@
+/*STAR IMPORT*/
+@import url('fonts/UnimedSlab-Regular.otf');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unimed';
+}
+/*START BODY*/
+.container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+img{
+  margin-top: 10%;
+}
+body{
+  background-color: white;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 153, 93);
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container input[type="submit"]:hover {
+  background-color: rgba(1, 59, 36);
+  transition: all .3s ease-out;
+}
+
+.error-message {
+  color: red;
+  font-size: 15px;
+}
+
+
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+/*END BODY*/
+
+/*START SELECTION*/
+::selection{ 
+  background: rgb(177,211,75); color: rgb(163,35,142);
+} 
+::-moz-selection{ 
+  background: rgb(177,211,75); color: rgb(163,35,142); 
+}
+/*END SELECTION*/
