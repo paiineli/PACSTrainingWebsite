@@ -17,7 +17,7 @@ To use this site, clone the repository and open the assets/signin.html file in y
 
 git clone https://github.com/paiineli/PACSTrainingWebsite<br>
 cd training-site<br>
-open index.html<br>
+open signin.html<br>
 
 # Contact
 If you have any questions or need further assistance, please feel free to contact:<br>
