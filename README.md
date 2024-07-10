@@ -15,7 +15,7 @@ This site is designed to be straightforward and simple for new team members in t
 # Usage
 To use this site, clone the repository and open the assets/signin.html file in your web browser.
 
-git clone https://github.com/yourusername/training-site.git
+git clone https://github.com/paiineli/PACSTrainingWebsite
 cd training-site
 open index.html
 
