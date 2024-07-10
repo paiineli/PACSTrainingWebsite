@@ -15,9 +15,12 @@ This site is designed to be straightforward and simple for new team members in t
 # Usage
 To use this site, clone the repository and open the assets/signin.html file in your web browser.
 
+git clone https://github.com/yourusername/training-site.git
+cd training-site
+open index.html
+
 # Contact
 If you have any questions or need further assistance, please feel free to contact:
-
 • Lucas Paineli
 • Email: painelilucas@gmail.com
 • Phone: +55 15 991144028
