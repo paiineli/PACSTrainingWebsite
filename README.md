@@ -9,8 +9,8 @@ This site is designed to be straightforward and simple for new team members in t
 • Confidentiality: Some files are excluded to protect sensitive information.<br>
 
 # Technologies Used
-• HTML<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> : For structuring the website.<br>
-• CSS<img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> : For styling and layout.<br>
+• HTML: <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">For structuring the website.<br>
+• CSS: <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">For styling and layout.<br>
 
 # Usage
 To use this site, clone the repository and open the assets/signin.html file in your web browser.
