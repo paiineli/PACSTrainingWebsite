@@ -12,6 +12,9 @@ This site is designed to be straightforward and simple for new team members in t
 • HTML: For structuring the website. <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><br>
 • CSS: For styling and layout. <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><br>
 
+![home](https://github.com/user-attachments/assets/13888a96-34bb-4133-b2ce-74042e469850)
+
+
 # Usage
 To use this site, clone the repository and open the assets/signin.html file in your web browser.
 
