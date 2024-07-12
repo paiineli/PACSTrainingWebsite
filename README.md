@@ -11,8 +11,8 @@ This site is designed to be straightforward and simple for new team members in t
 # Technologies Used
 <!--• HTML: For structuring the website.<br>
 • CSS: For styling and layout.<br>-->
-<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<img align="left" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img align="right" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 # Usage
 To use this site, clone the repository and open the assets/signin.html file in your web browser.
