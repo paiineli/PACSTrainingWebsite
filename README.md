@@ -41,4 +41,3 @@ open signin.html<br>
 If you have any questions or need further assistance, please feel free to contact:<br>
 • Lucas Paineli<br>
 • Email: painelilucas@gmail.com<br>
-• Phone: +55 15 991144028<br>
